@@ -3,7 +3,7 @@ import 'cirrus-ui/dist/cirrus.min.css';
 import 'cirrus-ui/dist/cirrus-core.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faDev } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faDev , faMedium} from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   return (
@@ -16,9 +16,9 @@ function App() {
         </div>
         <div className="header-nav" id="header-menu">
           <div className="nav-right">
-            <div className="nav-item text-center"><a href="!#about" className="u u-C">About</a></div>
-            <div className="nav-item text-center"><a href="!#links" className="u u-C">Links</a></div>
-            <div className="nav-item text-center"><a href="!#projects" className="u u-C">Projects</a></div>
+            <div className="nav-item text-center"><a href="#about" className="u u-C">About</a></div>
+            <div className="nav-item text-center"><a href="#links" className="u u-C">Links</a></div>
+            {/* <div className="nav-item text-center"><a href="#projects" className="u u-C">Projects</a></div> */}
           </div>
         </div>
       </div>
@@ -66,10 +66,13 @@ function App() {
               <a href="https://www.linkedin.com/in/taylor-abra/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="5x" /><p className="link-text">LinkedIn</p></a>
             </div>
             <div className="col col-2">
-              <a href="https://devpost.com/TaylorAbraham/" target="_blank"><FontAwesomeIcon icon={faDev} size="5x" /><p className="link-text">DevPost</p></a>
+              <a href="https://taylor-abraham.medium.com/" target="_blank"><FontAwesomeIcon icon={faMedium} size="5x" /><p className="link-text">Medium</p></a>
             </div>
           </div>
           <div className="row level">
+            <div className="col col-2">
+              <a href="https://devpost.com/TaylorAbraham/" target="_blank"><FontAwesomeIcon icon={faDev} size="5x" /><p className="link-text">DevPost</p></a>
+            </div>
             <div className="col col-2">
               <a href="mailto:taylor.abra8@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} size="5x" /><p className="link-text">Email</p></a>
             </div>
@@ -80,7 +83,7 @@ function App() {
         </div>
       </section>
 
-      <section id="projects-sec" className="section">
+      {/* <section id="projects-sec" className="section">
         <a id="projects" class="anchor" />
         <div className="content">
           <h3 className="u-center">Projects</h3>
@@ -114,7 +117,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <footer id="footer" className="footer">
         <h6 className="footer__title white uppercase">Thanks for visiting!</h6>
