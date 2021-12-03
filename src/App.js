@@ -18,7 +18,7 @@ function App() {
           <div className="nav-right">
             <div className="nav-item text-center"><a href="#about" className="u u-C">About</a></div>
             <div className="nav-item text-center"><a href="#links" className="u u-C">Links</a></div>
-            {/* <div className="nav-item text-center"><a href="#projects" className="u u-C">Projects</a></div> */}
+            <div className="nav-item text-center"><a href="TaylorAbraham.pdf" target="_blank" className="u u-C">Resume</a></div>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@ function App() {
               <div className="divider" />
               <p>Hey there, I'm Taylor! A full-stack developer and former hackathon organizer. I'm always looking for opportunities to learn new technology or to teach others.</p>
               <p>I have a broad variety of experience. Through internships, hackathons, and personal projects, I've learned how to build maintainable code and how to get things out of the door when needed. Check out <a href="https://github.com/TaylorAbraham" target="_blank" className="u u-LR">my GitHub</a> for a small sample!</p>
-              <p>Other interests include meetups, game development, and dogs.</p>
+              <p>I also love meetups, 3D printing, and playing the harp.</p>
             </div>
           </div>
         </div>
