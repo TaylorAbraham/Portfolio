@@ -83,42 +83,6 @@ function App() {
         </div>
       </section>
 
-      {/* <section id="projects-sec" className="section">
-        <a id="projects" class="anchor" />
-        <div className="content">
-          <h3 className="u-center">Projects</h3>
-          <div className="divider" />
-          <div className="row level">
-            <div className="col col-4">
-              <div className="card">
-                <div className="overlay" />
-                <div className="card__container">
-                  <div className="card__image" />
-                  <div className="card__title-container">
-                    <p className="title">MTG Tracker</p><span className="subtitle">A React Native tracking app for a competitive card game</span></div>
-                </div>
-                <div className="content">
-                  <p>Text and other content belong here.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col col-4">
-              <div className="card">
-                <div className="overlay" />
-                <div className="card__container">
-                  <div className="card__image" />
-                  <div className="card__title-container">
-                    <p className="title">Title</p><span className="subtitle">Subtitle</span></div>
-                </div>
-                <div className="content">
-                  <p>Text and other content belong here.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <footer id="footer" className="footer">
         <h6 className="footer__title white uppercase">Thanks for visiting!</h6>
         <div className="content">
