@@ -39,7 +39,7 @@ function App() {
           <div className="row level">
             <div className="col-4">
               <div id="avatar" className="avatar">
-                <img src="./taylor.jpeg" />
+                <img src="./taylor.jpg" />
               </div>
             </div>
             <div className="col-8">
