@@ -1,14 +1,22 @@
-import './App.scss';
-import 'cirrus-ui/dist/cirrus.min.css';
-import 'cirrus-ui/dist/cirrus-core.min.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin, faDev , faMedium} from '@fortawesome/free-brands-svg-icons'
+import "./App.scss";
+import "cirrus-ui/dist/cirrus.min.css";
+import "cirrus-ui/dist/cirrus-core.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faDev,
+  faMedium,
+} from "@fortawesome/free-brands-svg-icons";
 
 function App() {
   return (
     <div className="App">
-      <div id="app-header" className="header header-dark header-fixed unselectable header-animated">
+      <div
+        id="app-header"
+        className="header header-dark header-fixed unselectable header-animated"
+      >
         <div className="header-brand">
           <div className="nav-item no-hover">
             <h6 className="title">Taylor Abraham</h6>
@@ -16,9 +24,21 @@ function App() {
         </div>
         <div className="header-nav" id="header-menu">
           <div className="nav-right">
-            <div className="nav-item text-center"><a href="#about" className="u u-C">About</a></div>
-            <div className="nav-item text-center"><a href="#links" className="u u-C">Links</a></div>
-            <div className="nav-item text-center"><a href="TaylorAbraham.pdf" target="_blank" className="u u-C">Resume</a></div>
+            <div className="nav-item text-center">
+              <a href="#about" className="u u-C">
+                About
+              </a>
+            </div>
+            <div className="nav-item text-center">
+              <a href="#links" className="u u-C">
+                Links
+              </a>
+            </div>
+            <div className="nav-item text-center">
+              <a href="TaylorAbraham.pdf" target="_blank" className="u u-C">
+                Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -28,7 +48,10 @@ function App() {
           <div className="hero-body">
             <div id="hero-text" className="content u-text-center">
               <h1 className="uppercase white title">Taylor Abraham</h1>
-              <h3 className="uppercase white sub-title faded">Full stack developer. React.JS enthusiast.</h3></div>
+              <h3 className="uppercase white sub-title faded">
+                Full stack developer. TypeScript enthusiast.
+              </h3>
+            </div>
           </div>
         </div>
       </section>
@@ -45,8 +68,25 @@ function App() {
             <div className="col-8">
               <h3>About</h3>
               <div className="divider" />
-              <p>Hey there, I'm Taylor! A full-stack developer and former hackathon organizer. I'm always looking for opportunities to learn new technology or to teach others.</p>
-              <p>I have a broad variety of experience. Through internships, hackathons, and personal projects, I've learned how to build maintainable code and how to get things out of the door when needed. Check out <a href="https://github.com/TaylorAbraham" target="_blank" className="u u-LR">my GitHub</a> for a small sample!</p>
+              <p>
+                Hey there, I'm Taylor! A full-stack developer and former
+                hackathon organizer. I'm always looking for opportunities to
+                learn new technology or to teach others.
+              </p>
+              <p>
+                I have a broad variety of experience. Through internships,
+                hackathons, and personal projects, I've learned how to build
+                maintainable code and how to get things out of the door when
+                needed. Check out{" "}
+                <a
+                  href="https://github.com/TaylorAbraham"
+                  target="_blank"
+                  className="u u-LR"
+                >
+                  my GitHub
+                </a>{" "}
+                for a small sample!
+              </p>
               <p>I also love meetups, 3D printing, and playing the harp.</p>
             </div>
           </div>
@@ -60,24 +100,45 @@ function App() {
           <div className="divider" />
           <div className="row level">
             <div className="col col-2">
-              <a href="https://github.com/TaylorAbraham" target="_blank"><FontAwesomeIcon icon={faGithub} size="5x" /><p className="link-text">Github</p></a>
+              <a href="https://github.com/TaylorAbraham" target="_blank">
+                <FontAwesomeIcon icon={faGithub} size="5x" />
+                <p className="link-text">Github</p>
+              </a>
             </div>
             <div className="col col-2">
-              <a href="https://www.linkedin.com/in/taylor-abra/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="5x" /><p className="link-text">LinkedIn</p></a>
+              <a
+                href="https://www.linkedin.com/in/taylor-abra/"
+                target="_blank"
+              >
+                <FontAwesomeIcon icon={faLinkedin} size="5x" />
+                <p className="link-text">LinkedIn</p>
+              </a>
             </div>
             <div className="col col-2">
-              <a href="https://taylor-abraham.medium.com/" target="_blank"><FontAwesomeIcon icon={faMedium} size="5x" /><p className="link-text">Medium</p></a>
+              <a href="https://taylor-abraham.medium.com/" target="_blank">
+                <FontAwesomeIcon icon={faMedium} size="5x" />
+                <p className="link-text">Medium</p>
+              </a>
             </div>
           </div>
           <div className="row level">
             <div className="col col-2">
-              <a href="https://devpost.com/TaylorAbraham/" target="_blank"><FontAwesomeIcon icon={faDev} size="5x" /><p className="link-text">DevPost</p></a>
+              <a href="https://devpost.com/TaylorAbraham/" target="_blank">
+                <FontAwesomeIcon icon={faDev} size="5x" />
+                <p className="link-text">DevPost</p>
+              </a>
             </div>
             <div className="col col-2">
-              <a href="mailto:taylor.abra8@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} size="5x" /><p className="link-text">Email</p></a>
+              <a href="mailto:taylor.abra8@gmail.com" target="_blank">
+                <FontAwesomeIcon icon={faEnvelope} size="5x" />
+                <p className="link-text">Email</p>
+              </a>
             </div>
             <div className="col col-2">
-              <a href="TaylorAbraham.pdf" target="_blank"><FontAwesomeIcon icon={faFile} size="5x" /><p className="link-text">My Resume</p></a>
+              <a href="TaylorAbraham.pdf" target="_blank">
+                <FontAwesomeIcon icon={faFile} size="5x" />
+                <p className="link-text">My Resume</p>
+              </a>
             </div>
           </div>
         </div>
@@ -88,10 +149,20 @@ function App() {
         <div className="content">
           <div className="divider" />
           <div className="u-center">
-            <p>Want to get in touch?<br /><a href="mailto:taylor.abra8@gmail.com" target="_blank" className="utb utb-OLR">taylor.abra8@gmail.com</a></p>
+            <p>
+              Want to get in touch?
+              <br />
+              <a
+                href="mailto:taylor.abra8@gmail.com"
+                target="_blank"
+                className="utb utb-OLR"
+              >
+                taylor.abra8@gmail.com
+              </a>
+            </p>
           </div>
         </div>
-        <p className="subtitle">© 2021 Taylor Abraham</p>
+        <p className="subtitle">© 2022 Taylor Abraham</p>
       </footer>
     </div>
   );
